@@ -260,6 +260,76 @@ footer img {
 }
 
 
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 1em;
+    background-color: #fafafa;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2em;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 1em;
+    font-size: 1.8em;
+    color: #4a4a4a;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-top: 1em;
+    font-weight: 600;
+    color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: .5em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 1.5em;
+    background-color: #7a4f3e;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #a07161;
+}
+
+.login-error {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 900px) {
     figure, #news_gallery figure, #gallery figure {
         width: 90%;
@@ -284,5 +354,21 @@ footer img {
     .news-thumb, .news-content {
         width: 100%;
     }
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    background: #111;
+}
+
 
 }
